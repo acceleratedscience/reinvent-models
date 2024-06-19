@@ -5,13 +5,13 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="reinvent_models",
-    version="0.0.15rc1",
+    version="0.0.16",
     author="MolecularAI",
     author_email="patronov@gmail.com",
     description="Generative models for Reinvent",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/MolecularAI/reinvent-models.git",
+    url="https://github.com/GT4SD/reinvent-models.git",
     packages=setuptools.find_packages(exclude=('testing.*', 'testing')),
     classifiers=[
         "Programming Language :: Python :: 3",
